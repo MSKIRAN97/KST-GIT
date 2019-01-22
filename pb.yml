@@ -1,0 +1,10 @@
+-
+  name: play1
+  hosts: web
+  tasks:
+  - name: install httpd srver
+    yum:
+       name: httpd
+       state: present
+  
+  
